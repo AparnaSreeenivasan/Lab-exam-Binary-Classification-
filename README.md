@@ -10,6 +10,9 @@ Handled missing values
 - Mapped target values (Yes → 1, No → 0)
 - Removed NaN values in target column
 Model used is Logistic Regression()
+# Decision Boundary
+Logistic Regression creates a linear decision boundary. Since the data was non-linear, the model could not separate classes properly. 
+Polynomial features were used to create a non-linear decision boundary, improving the model performance.
 # Classification report and confusion matrix
 Accuracy - 0.79
 Confusion Matrix - Confusion Matrix:
